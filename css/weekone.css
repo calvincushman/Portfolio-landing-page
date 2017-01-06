@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #f2e1a9;
+  background-color: #9783a0;
 }
 
 .container {
@@ -9,6 +9,7 @@ body {
   padding: 10px;
 }
 .header {
+  margin-left: 60px;
   padding: 20px;
   margin: 60px;
   text-align: center;
@@ -25,6 +26,10 @@ h1 {
   font-weight: bold;
 }
 
+p {
+  color: #374254;
+}
+
 .intro {
   background-color:#b0fcd1;
   margin-left: 60px
@@ -39,8 +44,14 @@ img {
 }
 
 .projects {
-  background-color: #b0fcd1;
+  border: outset #9cceb2 15px;
+  background-color: #fcc592;
   float: left;
   width: 300px;
   margin-top: 80px;
+}
+
+li {
+  font-size: 20px;
+  color: #3b443f;
 }
