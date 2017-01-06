@@ -1,7 +1,5 @@
-
-
 body {
-  background-color: #9783a0;
+  background-color:#dcc5f7;
 }
 
 .container {
@@ -9,9 +7,9 @@ body {
   padding: 10px;
 }
 .header {
-  margin-left: 60px;
+  font-family: roboto;
+  float: right;
   padding: 20px;
-  margin: 60px;
   text-align: center;
   font-size: 20px
 }
@@ -28,6 +26,7 @@ h1 {
 
 p {
   color: #374254;
+  padding: 20px
 }
 
 .intro {
@@ -44,14 +43,22 @@ img {
 }
 
 .projects {
-  border: outset #9cceb2 15px;
+  border-radius: 3%;
+  border: inset #f7e1bb 15px;
   background-color: #fcc592;
   float: left;
   width: 300px;
   margin-top: 80px;
 }
 
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
 li {
+  font-family: sans-serif;
   font-size: 20px;
   color: #3b443f;
 }
