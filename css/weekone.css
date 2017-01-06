@@ -3,6 +3,18 @@ body {
 }
 
 .header {
+  margin: 60px;
   text-align: center;
-  font-size: 40px
+  font-size: 20px
+}
+
+img {
+  float: right;
+}
+
+h1 {
+  background-color: #7ca3e2;
+  border:#5d90e2 outset;
+  font-family:serif;
+  font-weight: bold;
 }
